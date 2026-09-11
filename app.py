@@ -15,7 +15,7 @@ st.set_page_config(
     page_icon="📄"
 )
 # Title
-st.title("AI Documnet Assistant")
+st.title("Saboor's Documnet Assistant")
 st.write("Upload a PDF and ask questions about it.")
 
 # PDF uploader
