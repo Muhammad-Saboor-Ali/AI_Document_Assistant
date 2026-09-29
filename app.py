@@ -15,7 +15,7 @@ st.set_page_config(
     page_icon="📄"
 )
 # Title
-st.title("Saboor's Documnet Assistant")
+st.title("Saboor's Document Assistant")
 st.write("Upload a PDF and ask questions about it.")
 
 # PDF uploader
@@ -73,7 +73,7 @@ st.success("PDf processed Successfully!")
 question = st.text_input("Ask question about your Document:")
 
 # Ask Button
-if st.button("Ask question"):
+if st.button("Get Answer"):
 
     if question:
 
